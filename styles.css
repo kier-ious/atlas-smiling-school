@@ -1,0 +1,440 @@
+/* Styling for header */
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transparent-header {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.transparent-bg {
+  background-color: transparent !important;
+}
+
+.transparent-header .navbar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.transparent-header .navbar-nav .nav-link:hover {
+  color: #C271FF;
+}
+
+#navbar {
+  display: flex;
+  gap: 52px;
+  justify-content: space-evenly;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #FFF !important;
+}
+
+
+/* Banner Styling */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background: url('images/background.png') center/cover;
+  margin-top: 0px;
+}
+
+.container h1 {
+  justify-content: center;
+  font-size: 120px;
+  font-weight: 700px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-top: 225px;
+}
+
+.smile p {
+  justify-content: center;
+  word-spacing: 59px;
+  margin-top: -100px;
+}
+
+#button {
+  margin: -38px auto;
+  align-items: center;
+  padding: 13px 21px 13px 20px;
+  border-radius: 22px;
+  background: #C271FF;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+#learn {
+  margin-top: 168px;
+  color: #C271FF;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Awards */
+
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+  gap: 139px;
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+}
+
+.award {
+  text-align: center;
+}
+
+/* QUOTES */
+
+#quote {
+  background: url('images/quote_background.png') center/cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#quote .text-wrapper {
+  text-align: left;
+}
+
+.circle_quote {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.light {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#quote p {
+  margin-left: 40px;
+}
+
+/* Video Section */
+
+.videos {
+  margin-bottom: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videos h1 {
+  font-size: 32px;
+  color: #071629;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 87px;
+}
+
+.videos h1 strong {
+  font-size: 32px;
+  color: #C271FF;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 87px;
+}
+
+.videos-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
+
+.tutorial_vid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 255px;
+  height: 335px;
+  margin-top: 160px;
+  border-radius: 5px 5px;
+  background: #FFF;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.tutorial_vid p {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.play_button1 {
+  position: absolute;
+  z-index: 1;
+  left: 240px;
+  right: 1116px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+.play_button2 {
+  position: absolute;
+  z-index: 1;
+  left: 546px;
+  right: 830px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+.play_button3 {
+  position: absolute;
+  z-index: 1;
+  left: 831px;
+  right: 545px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+.play_button4 {
+  position: absolute;
+  z-index: 1;
+  left: 1116px;
+  right: 268px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+#Phillip {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.Author {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 79px;
+  color: #C271FF;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 10px;
+}
+
+.Rating {
+  gap: 79px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.Rating .highlight {
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  align-items: center;
+}
+
+/* Membership Section */
+
+.membership_background {
+  background: url('images/mem_background.png');
+  color: #071629;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.membership_background strong {
+  font-size: 32px;
+  color: #C271FF;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 87px;
+}
+
+.membership_background h2 {
+  font-size: 32px;
+  color: #FFF;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 87px;
+}
+
+.mem_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mem_items {
+  display: flex;
+  color: #FFF;
+  text-align: center;
+  flex-direction: column;
+  padding-left: 106.71px;
+}
+
+.smiley {
+  width: 257px;
+  height: 153px;
+  flex: 1;
+  margin: 0 32px;
+}
+
+.smiley .mem_text {
+  margin-top: 26.62px;
+  font-size: 19px;
+  font-weight: 400;
+  color: white
+}
+
+.smiley .mem_quote {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.membership_background #button {
+  margin: -38px auto;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  padding: 13px 21px 13px 20px;
+  border-radius: 22px;
+  background: #C271FF;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+  margin-bottom: 50px;
+}
+
+/* F.A.Q. Section */
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFF;
+}
+
+.title_box {
+  color: #071629;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.faq_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: flex-start;
+  gap: 94px;
+}
+
+.faq p {
+  color: rgba(7, 22, 41, 0.50);
+  font-size: 14px;
+}
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #071629;
+}
+
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+  gap: 800px;
+  margin-top: 75px;
+}
+
+.footer_row.smiley_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18.019px;
+  margin: 95px 1106px 124px 165px;
+}
+
+.footer_row.social_media {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin: 90px 240px 129px 1070px;
+}
+
+.footer p {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 12px;
+  opacity: 0.3517;
+  margin: 39px;
+}
