@@ -48,7 +48,7 @@ header {
 .banner {
   display: flex;
   flex-direction: column;
-  background: url('images/background.png');
+  background: url('images/pic_1.jpg');
   margin-top: 0px;
   background-position: top;
   background-size: cover;
