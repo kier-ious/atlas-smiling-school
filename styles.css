@@ -11,18 +11,11 @@ header {
   justify-content: space-between;
 }
 
-.transparent-header {
-  position: absolute;
-  width: 100%;
-  z-index: 999;
-}
-
 .transparent-bg {
   background-color: transparent !important;
 }
 
 .transparent-header .navbar-nav .nav-link {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -30,16 +23,16 @@ header {
   color: #C271FF;
 }
 
-#navbar {
+.navbar {
   display: flex;
   gap: 52px;
   justify-content: space-evenly;
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
   width: 100px;
   height: auto;
-}
+} */
 
 .navbar-nav .nav-item {
   margin-right: 15px;
@@ -55,8 +48,14 @@ header {
 .banner {
   display: flex;
   flex-direction: column;
-  background: url('images/background.png') center/cover;
+  background: url('images/background.png');
   margin-top: 0px;
+  background-position: top;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 0%;
+  min-height: 100vh;
 }
 
 .container h1 {
@@ -76,7 +75,6 @@ header {
 }
 
 #button {
-  margin: -38px auto;
   align-items: center;
   padding: 13px 21px 13px 20px;
   border-radius: 22px;
@@ -92,6 +90,13 @@ header {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+.LFTP {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
   line-height: normal;
 }
 
