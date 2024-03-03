@@ -10,7 +10,7 @@ header {
   display: flex;
 }
 
-.navbar-toggler-icon {
+.navbar .navbar-toggler-icon {
   color: #fff;
 }
 
@@ -26,7 +26,6 @@ header {
   background: url('images/pic_1.jpg');
   background-position: top;
   background-size: cover;
-
   padding: 0%;
   min-height: 100vh;
 }
