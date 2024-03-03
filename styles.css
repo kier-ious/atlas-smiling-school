@@ -20,10 +20,11 @@ header {
 
 /* Banner Styling */
 
-.container-fluid {
+.bg-img1 {
   display: flex;
   flex-direction: column;
   background: url('images/pic_1.jpg');
+  background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   padding: 0%;
@@ -39,36 +40,10 @@ header {
   box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
 }
 
-.font-weight-bold
-
 /* QUOTES */
 
-#quote {
-  background: url('images/quote_background.png') center/cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#quote .text-wrapper {
-  text-align: left;
-}
-
-.circle_quote {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-}
-
-.light {
-  font-weight: lighter;
-  text-align: left;
-}
-
-
-
-#quote p {
-  margin-left: 40px;
+.container-fluid .quote {
+  background: url('images/quote-bg.png');
 }
 
 /* Video Section */
