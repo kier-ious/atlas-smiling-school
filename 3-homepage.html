@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -22,6 +21,15 @@
     .bg-color-purple {
       background-color: #C271FF;
     }
+
+    .text-purple {
+    color: #C271FF !important;
+    }
+
+    .button {
+      color: #C271FF;
+    }
+
   </style>
   <script>
     $(document).ready(function(){
@@ -157,7 +165,7 @@
 
 <!-- Videos -->
 <section class="container-fluid text-navy bg-white">
-  <h1 class="font-weight-light text-center py-5 my-5">Most <span class="font-weight-bold">popular</span> tutorials</h1>
+  <h1 class="font-weight-light text-center py-5 my-5">Most <span class="font-weight-bold text-purple">popular</span> tutorials</h1>
         <div id="popular-videos" class="carousel slide" data-ride="false">
             <div class="container-lg">
                 <div class="carousel-inner">
@@ -277,6 +285,39 @@
             </a>
         </div>
       </section>
+
+      <!-- Membership -->
+      <section class="container-fluid" style="background-color: #071629; color: white; text-align: center; padding: 50px;">
+        <h1 class="font-weight-light text-center py-5 my-5"><span class="font-weight-bold text-purple">Free</span> membership</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-12 p-4 text-center">
+                <img src="images/smile_on.png" height="36px" width="45px" class="mb-3">
+                <h5 class="font-weight-bold pt-3 pb-2">Lorem ipsum</h5>
+                <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 p-4 text-center">
+                <img src="images/smile_on.png" height="36px" width="45px" class="mb-3">
+                <h5 class="font-weight-bold pt-3 pb-2">Lorem ipsum</h5>
+                <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 p-4 text-center">
+                <img src="images/smile_on.png" height="36px" width="45px" class="mb-3">
+                <h5 class="font-weight-bold pt-3 pb-2">Lorem ipsum</h5>
+                <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 p-4 text-center">
+                <img src="images/smile_on.png" height="36px" width="45px" class="mb-3">
+                <h5 class="font-weight-bold pt-3 pb-2">Lorem ipsum</h5>
+                <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+          <div class="mx-auto py-3">
+            <button id="button" class="btn btn-success rounded-pill py-2 px-3 text-light">REGISTER FOR FREE</button>
+          </div>
+        </div>
+    </section>
+
     </main>
   </body>
 </html>
