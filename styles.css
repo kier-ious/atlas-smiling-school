@@ -56,87 +56,6 @@ header {
     right: 0;
 }
 
-/* Membership Section */
-
-.membership_background {
-  background: url('images/mem_background.png');
-  color: #071629;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.membership_background strong {
-  font-size: 32px;
-  color: #C271FF;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 87px;
-}
-
-.membership_background h2 {
-  font-size: 32px;
-  color: #FFF;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 87px;
-}
-
-.mem_block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.mem_items {
-  display: flex;
-  color: #FFF;
-  text-align: center;
-  flex-direction: column;
-  padding-left: 106.71px;
-}
-
-.smiley {
-  width: 257px;
-  height: 153px;
-  flex: 1;
-  margin: 0 32px;
-}
-
-.smiley .mem_text {
-  margin-top: 26.62px;
-  font-size: 19px;
-  font-weight: 400;
-  color: white
-}
-
-.smiley .mem_quote {
-  font-size: 14px;
-  font-weight: 400;
-  color: white;
-}
-
-.membership_background #button {
-  margin: -38px auto;
-  display: flex;
-  align-items: center;
-  height: 44px;
-  padding: 13px 21px 13px 20px;
-  border-radius: 22px;
-  background: #C271FF;
-  cursor: pointer;
-  color: #FFF;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
-  margin-bottom: 50px;
-}
 
 /* F.A.Q. Section */
 
@@ -178,37 +97,25 @@ h2 {
 
 /* Footer Section */
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background: #071629;
+footer {
+  position: relative;
 }
 
-.footer_row {
+.social_media {
   display: flex;
-  justify-content: space-between;
-  gap: 800px;
-  margin-top: 75px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.footer_row.smiley_logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18.019px;
-  margin: 95px 1106px 124px 165px;
-}
-
-.footer_row.social_media {
+.social_media {
   display: flex;
   justify-content: right;
   align-items: right;
   margin: 90px 240px 129px 1070px;
 }
 
-.footer p {
+.footer .social_media p {
   flex-direction: column;
   text-align: center;
   align-items: center;
