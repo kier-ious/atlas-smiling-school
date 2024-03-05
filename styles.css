@@ -142,3 +142,12 @@ footer {
   display: flex;
   justify-content: right;
 }
+
+select.form-select.text-black.bg-white {
+  color: black;
+  background-color: white;
+}
+
+select.form-select.text-black.bg-white option:hover {
+  background-color: #C271FF;
+}

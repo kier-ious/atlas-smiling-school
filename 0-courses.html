@@ -22,6 +22,11 @@
       background: url('images/pic_3.jpg');
     }
 
+    .bg-color-purple {
+      background: #C271FF;
+      height: 138px;
+    }
+
     .text-purple {
       color: #C271FF;
       font-family: Coiny;
@@ -77,5 +82,37 @@
           </div>
         </div>
       </header>
+
+      <!-- Purple bar -->
+      <form class="container-fluid bg-color-purple p-5" style="height: auto;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="text-white" for="search">KEYWORDS</label>
+                    <input type="text" class="form-control text-black" id="search" placeholder="Search by keywords">
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                    <label class="text-white" for="topic">TOPIC</label>
+                    <select class="form-control text-black" id="topic">
+                        <option selected>Novice</option>
+                        <option>Intermediate</option>
+                        <option>Expert</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                    <label class="text-white" for="sort">SORT BY</label>
+                    <select class="form-control text-black" id="sort">
+                        <option selected>Most Popular</option>
+                        <option>Most Recent</option>
+                        <option>Most Viewed</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+      </form>
     </body>
 </html>
