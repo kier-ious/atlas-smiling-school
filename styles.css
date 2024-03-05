@@ -123,3 +123,15 @@ footer {
   margin-bottom: 10px;
 }
 
+/* FAQ */
+
+.faq {
+  background: #FFF;
+  height: 100vh;
+}
+
+.faq-item {
+  border-radius: 5px;
+  text-align: center;
+}
+
