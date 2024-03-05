@@ -100,40 +100,42 @@ h2 {
 footer {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px; /* Adjust as needed */
 }
 
-.footer {
+
+/* PRICING */
+
+.btn-primary {
+  background-color: #C271FF;;
+  color: #fff;
+  border: none;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.feature {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 100%;
+  margin-bottom: 10px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+.check-icon,
+.cross-icon {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin-right: 5px;
 }
 
-.logo img {
-  margin-right: 10px;
+.check-icon {
+  background-image: url('check.png'); /* Image path for check icon */
 }
 
-.social_media {
-  display: flex;
-  align-items: flex-end;
-}
-
-.social_media svg {
-  align-items: flex-end;
-  margin-left: 10px;
-}
-
-.copyright {
-  justify-content: center;
-  text-align: center;
-  width: 100%;
+.cross-icon {
+  background-image: url('fonts/holberton_school-icon-check large.png'); /* Image path for cross icon */
 }
