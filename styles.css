@@ -113,7 +113,6 @@ footer {
   background-color: #C271FF;;
   color: #fff;
   border: none;
-
   font-size: 16px;
   cursor: pointer;
 }
@@ -124,18 +123,3 @@ footer {
   margin-bottom: 10px;
 }
 
-.check-icon,
-.cross-icon {
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-  margin-right: 5px;
-}
-
-.check-icon {
-  background-image: url('check.png'); /* Image path for check icon */
-}
-
-.cross-icon {
-  background-image: url('fonts/holberton_school-icon-check large.png'); /* Image path for cross icon */
-}
