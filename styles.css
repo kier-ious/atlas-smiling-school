@@ -99,28 +99,41 @@ h2 {
 
 footer {
   position: relative;
-}
-
-.social_media {
   display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.social_media {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  margin: 90px 240px 129px 1070px;
-}
-
-.footer .social_media p {
   flex-direction: column;
-  text-align: center;
+  justify-content: space-between;
   align-items: center;
-  color: #FFF;
-  font-size: 12px;
-  opacity: 0.3517;
-  margin: 39px;
+  padding: 20px; /* Adjust as needed */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.social_media {
+  display: flex;
+  align-items: flex-end;
+}
+
+.social_media svg {
+  align-items: flex-end;
+  margin-left: 10px;
+}
+
+.copyright {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
 }
