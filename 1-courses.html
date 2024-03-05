@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Get Schooled</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" rel="stylesheet" >
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+  </head>
+
+  <style>
+    .small-image {
+      width: 150px;
+    }
+
+    .bg-img3 {
+      background: url('images/pic_3.jpg');
+    }
+
+    .bg-color-purple {
+      background: #C271FF;
+      height: 138px;
+    }
+
+    .text-purple {
+      color: #C271FF;
+      font-family: Coiny;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .position-relative {
+      font-family: Coiny;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+  </style>
+  <script>
+    $(document).ready(function(){
+      $('.navbar-nav a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+      });
+    });
+  </script>
+
+    <body>
+      <!-- Header -->
+      <header class="container-fluid bg-img3">
+        <div class="container-lg transparent-bg">
+          <nav class="navbar navbar-expand-sm navbar-light pt-4">
+            <div class="d-flex align-items-center flex-sm-row flex-column col-sm-6">
+              <img class="m-2" src="images/smile_off.png" height="30px">
+              <img class="m-2" src="images/logo.png" height="30px">
+            </div>
+            <button class="navbar-toggler float-left position-absolute d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarNav">
+                <ul class="navbar-nav text-uppercase ml-auto align-items-center flex-sm-row font-weight-bold">
+                  <li class="nav-item"><a class="nav-link text-light mx-3" href="#courses">COURSES</a></li>
+                  <li class="nav-item"><a class="nav-link text-light mx-3" href="#pricing">PRICING</a></li>
+                  <li class="nav-item"><a class="nav-link text-light mx-3" href="#login">LOGIN</a></li>
+                </ul>
+              </div>
+          </nav>
+          <div class="position-relative pb-5 pt-4">
+            <h1 class="display-5 font-weight-bold text-center coiny-quote text-white" style="font-size: 32px;">
+              « Don’t cry because it’s over.<br><span class="text-purple">Smile</span> because it happened. »
+            </h1>
+            <div class="DS">
+              <h6 class="position-absolute bottom-0 end-0 mb-3 me-3 text-white">Dr. Seuss</h6>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Purple bar -->
+      <form class="container-fluid bg-color-purple p-5" style="height: auto;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="text-white" for="search">KEYWORDS</label>
+                    <input type="text" class="form-control text-black" id="search" placeholder="Search by keywords">
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                    <label class="text-white" for="topic">TOPIC</label>
+                    <select class="form-control text-black" id="topic">
+                        <option selected>Novice</option>
+                        <option>Intermediate</option>
+                        <option>Expert</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                    <label class="text-white" for="sort">SORT BY</label>
+                    <select class="form-control text-black" id="sort">
+                        <option selected>Most Popular</option>
+                        <option>Most Recent</option>
+                        <option>Most Viewed</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+      </form>
+    </body>
+</html>
