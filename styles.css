@@ -6,9 +6,9 @@ body {
   margin: 0;
 }
 
-header {
+/* header {
   display: flex;
-}
+} */
 
 .navbar .navbar-toggler-icon {
   color: #fff;
@@ -103,7 +103,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 
@@ -133,4 +133,12 @@ footer {
 .faq-item {
   border-radius: 5px;
   text-align: center;
+}
+
+
+/* Courses Header */
+
+.DS {
+  display: flex;
+  justify-content: right;
 }
